@@ -1,0 +1,116 @@
+/* Container for job listings */
+.job-list-container {
+  padding: 40px;
+  text-align: center;
+}
+.job-page {
+    background-image: url("https://img.freepik.com/free-vector/man-search-hiring-job-online-from-laptop_1150-52728.jpg?t=st=1741853770~exp=1741857370~hmac=30e5c4df476caeefdf378af227e02665269e34e15816627a90dbf0b8c3843594&w=1800");
+    background-attachment: fixed;
+    filter: brightness(100%);
+}
+
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Job card styling */
+.job-card {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  border: 1px solid #ddd;
+}
+
+.job-card:hover {
+  background: rgba(255, 255, 255, 0.9); /* Slightly less transparent */
+  transform: scale(1.1); /* Small pop effect */
+
+}
+
+/* Job title */
+.job-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Apply button styling */
+.job-card button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.job-card button:hover {
+  background-color: #45a049;
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.search-input {
+    width: 50%;
+    padding: 12px 45px 12px 15px; /* Space for icon */
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.9); /* Light transparency */
+    outline: none;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.search-input:hover {
+    border-color: #007bff; /* Blue border on hover */
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly whiter background */
+}
+/* Focus effect */
+.search-input:focus {
+    border-color: #0056b3; /* Darker blue */
+    box-shadow: 0px 0px 8px rgba(0, 91, 187, 0.6); /* Glow effect */
+}
+
+/* Search icon inside input */
+.search-icon {
+    position: absolute;
+    right: 25%;
+    font-size: 20px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.job-list-container h1 {
+    font-family: 'Times New Roman', Times, serif; /* Change font */
+    font-size: 30px; /* Adjust size */
+    font-weight: bold; /* Make it bold */
+    color: #007bff; /* Change text color */
+    text-align: center; /* Center align */
+    margin-bottom: 20px; /* Add spacing below */
+}
+
+
+
+
+
+
+
+

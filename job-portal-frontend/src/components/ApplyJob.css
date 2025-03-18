@@ -1,0 +1,94 @@
+/* ApplyJob.css */
+
+.apply-job-container {
+    width: 50%;
+    max-width: 4000px;
+    margin: 40px auto;
+    padding: 20px;
+    background:rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.apply-job-page {
+    background-image: url("https://media.istockphoto.com/id/1394701218/photo/job-search-concept-find-your-career-woman-looking-at-online-website-by-laptop-computer-people.jpg?s=2048x2048&w=is&k=20&c=sGBbWd2DfQYo-p_ObXZOUWV-Vl91i9u1YWfQ-jiE3KM="); /* Change this to your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.success-message {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.apply-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.form-input,
+.form-textarea,
+.form-file {
+    width: 98%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-textarea {
+    resize: none;
+}
+
+.submit-button {
+    margin-top: 15px;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.submit-button:hover {
+    background: #0056b3;
+}
+.back-button {
+    margin-top: 20px;
+    background-color: #ccc;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background-color: #bbb;
+}
